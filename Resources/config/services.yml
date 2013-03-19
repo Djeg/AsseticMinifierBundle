@@ -1,0 +1,9 @@
+services:
+    davidjegat_asseticminifier.minify_js:
+        class: DavidJegat\AsseticMinifierBundle\AsseticFilter\AsseticMinifierJsFilter
+        tags:
+            - {name: assetic.filter, alias: "minify_js"}
+    davidjegat_asseticminifier.minify_css:
+        class: DavidJegat\AsseticMinifierBundle\AsseticFilter\AsseticMinifierCssFilter
+        tags:
+            - {name: assetic.filter, alias: "minify_css"}
