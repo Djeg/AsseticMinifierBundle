@@ -3,7 +3,7 @@ AsseticMinifierBundle
 
 [![Build Status](https://travis-ci.org/davidjegat/AsseticMinifierBundle.png)](https://travis-ci.org/davidjegat/AsseticMinifierBundle)
 
-An assetic minifier in pure PHP for CSS and JS files.
+An assetic minifier in pure PHP for CSS and JS files. This bundle use [JSMin](http://code.google.com/p/jsmin-php/) and [CssMin](https://github.com/tubalmartin/YUI-CSS-compressor-PHP-port)
 
 # Instalation
 
