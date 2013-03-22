@@ -1,7 +1,7 @@
 {
     "name": "davidjegat/assetic-minifier-bundle",
     "type": "symfony-bundle",
-    "description": "A complete minifier in pure PHP for your assetic.",
+    "description": "A complete minifier in pure PHP for your assetic. Using Douglas Crockford JSMin and Tubal Martin CssMin",
     "keywords": ["Assetic", "Minify"],
     "homepage": "https://github.com/davidjegat/AsseticMinifierBundle",
     "license": "MIT",
@@ -9,6 +9,20 @@
         {
             "name": "David Jegat",
             "email": "david.jegat@gmail.com"
+        },
+        {
+            "name": "Ryan Grove",
+            "email": "ryan@wonko.com"
+        },
+        {
+            "name": "Steve Clay",
+            "email": "steve@mrclay.org"
+        },
+        {
+            "name": "Andrea Giammarchi"
+        },
+        {
+            "name": "Tubal Martin"
         }
     ],
     "minimum-stability": "stable",
